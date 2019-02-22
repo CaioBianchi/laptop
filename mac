@@ -125,6 +125,7 @@ brew "reattach-to-user-namespace"
 brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
+brew "neovim"
 brew "watchman"
 brew "zsh"
 
@@ -143,6 +144,14 @@ brew "libyaml" # should come after openssl
 brew "coreutils"
 brew "yarn"
 cask "gpg-suite"
+
+" Apps
+cask "google-chrome"
+cask "firefox"
+cask "visual-studio-code"
+cask "vlc"
+cask "docker"
+cask "iterm2"
 
 # Databases
 brew "postgres", restart_service: :changed
